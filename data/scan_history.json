@@ -1,6 +1,39 @@
 {
   "scans": [
     {
+      "scanId": "SCAN-B0C3D84A",
+      "fileName": "ridderzuring_3183_jpg.rf.d456018c2a5a0fd960827611c07bca26.jpg",
+      "fileSize": 82288,
+      "timestamp": "2026-05-05T21:35:29.035Z",
+      "totalDetections": 4,
+      "overallSeverity": "medium",
+      "avgConfidence": 0.8296,
+      "weedCoverage": 8.3,
+      "imagePath": "/uploads/scan_1778016928979_3174908f.jpg"
+    },
+    {
+      "scanId": "SCAN-A205B509",
+      "fileName": "scan_1778006731890_2c606e95.png",
+      "fileSize": 481017,
+      "timestamp": "2026-05-05T21:30:45.328Z",
+      "totalDetections": 9,
+      "overallSeverity": "high",
+      "avgConfidence": 0.8486,
+      "weedCoverage": 11,
+      "imagePath": "/uploads/scan_1778016645315_b383c053.png"
+    },
+    {
+      "scanId": "SCAN-B0C3D84A",
+      "fileName": "ridderzuring_3183_jpg.rf.d456018c2a5a0fd960827611c07bca26.jpg",
+      "fileSize": 82288,
+      "timestamp": "2026-05-05T21:21:52.695Z",
+      "totalDetections": 4,
+      "overallSeverity": "medium",
+      "avgConfidence": 0.8296,
+      "weedCoverage": 8.3,
+      "imagePath": "/uploads/scan_1778016112676_a28973ce.jpg"
+    },
+    {
       "scanId": "SCAN-B56CE259",
       "fileName": "1-s2.0-S2352340925004214-fx3.jpg",
       "fileSize": 601308,
@@ -90,6 +123,21 @@
     }
   ],
   "activity": [
+    {
+      "msg": "Scanned \"ridderzuring_3183_jpg.rf.d456018c2a5a0fd960827611c07bca26.jpg\" — found 4 weeds (medium severity)",
+      "type": "success",
+      "time": "2026-05-05T21:35:29.043Z"
+    },
+    {
+      "msg": "Scanned \"scan_1778006731890_2c606e95.png\" — found 9 weeds (high severity)",
+      "type": "warning",
+      "time": "2026-05-05T21:30:45.330Z"
+    },
+    {
+      "msg": "Scanned \"ridderzuring_3183_jpg.rf.d456018c2a5a0fd960827611c07bca26.jpg\" — found 4 weeds (medium severity)",
+      "type": "success",
+      "time": "2026-05-05T21:21:52.698Z"
+    },
     {
       "msg": "Scanned \"1-s2.0-S2352340925004214-fx3.jpg\" — found 12 weeds (high severity)",
       "type": "warning",
