@@ -1,0 +1,134 @@
+{
+  "scans": [
+    {
+      "scanId": "SCAN-B56CE259",
+      "fileName": "1-s2.0-S2352340925004214-fx3.jpg",
+      "fileSize": 601308,
+      "timestamp": "2026-05-05T21:15:12.778Z",
+      "totalDetections": 12,
+      "overallSeverity": "high",
+      "avgConfidence": 0.824,
+      "weedCoverage": 9.3,
+      "imagePath": "/uploads/scan_1778015712736_cea5ea16.jpg"
+    },
+    {
+      "scanId": "SCAN-1C9847E8",
+      "fileName": "Screenshot 2026-05-05 234607.png",
+      "fileSize": 757882,
+      "timestamp": "2026-05-05T21:03:31.994Z",
+      "totalDetections": 7,
+      "overallSeverity": "medium",
+      "avgConfidence": 0.8285,
+      "weedCoverage": 11.5,
+      "imagePath": "/uploads/scan_1778015011971_1ac68006.png"
+    },
+    {
+      "scanId": "SCAN-1C9847E8",
+      "fileName": "Screenshot 2026-05-05 234607.png",
+      "fileSize": 757882,
+      "timestamp": "2026-05-05T21:01:07.558Z",
+      "totalDetections": 7,
+      "overallSeverity": "medium",
+      "avgConfidence": 0.8285,
+      "weedCoverage": 11.5,
+      "imagePath": "/uploads/scan_1778014867422_23ede76c.png"
+    },
+    {
+      "scanId": "SCAN-27CC67E2",
+      "fileName": "demo_field_scan.png",
+      "fileSize": 483482,
+      "timestamp": "2026-05-05T20:25:02.378Z",
+      "totalDetections": 9,
+      "overallSeverity": "high",
+      "avgConfidence": 0.8657,
+      "weedCoverage": 7.8,
+      "imagePath": "/uploads/scan_1778012702351_34c1cfbc.png"
+    },
+    {
+      "scanId": "SCAN-27CC67E2",
+      "fileName": "demo_field_scan.png",
+      "fileSize": 483482,
+      "timestamp": "2026-05-05T20:24:27.931Z",
+      "totalDetections": 9,
+      "overallSeverity": "high",
+      "avgConfidence": 0.8657,
+      "weedCoverage": 7.8,
+      "imagePath": "/uploads/scan_1778012667858_8e1b6302.png"
+    },
+    {
+      "scanId": "SCAN-B4435200",
+      "fileName": "demo_field_scan.png",
+      "fileSize": 482404,
+      "timestamp": "2026-05-05T20:17:10.829Z",
+      "totalDetections": 10,
+      "overallSeverity": "high",
+      "avgConfidence": 0.8698,
+      "weedCoverage": 23.9,
+      "imagePath": "/uploads/scan_1778012230797_6656af01.png"
+    },
+    {
+      "scanId": "SCAN-91DBB160",
+      "fileName": "demo_field_scan.png",
+      "fileSize": 482315,
+      "timestamp": "2026-05-05T20:09:20.869Z",
+      "totalDetections": 9,
+      "overallSeverity": "high",
+      "avgConfidence": 0.8313,
+      "weedCoverage": 18.1,
+      "imagePath": "/uploads/scan_1778011760858_e410af04.png"
+    },
+    {
+      "scanId": "SCAN-91DBB160",
+      "fileName": "demo_field_scan.png",
+      "fileSize": 482315,
+      "timestamp": "2026-05-05T20:09:01.026Z",
+      "totalDetections": 9,
+      "overallSeverity": "high",
+      "avgConfidence": 0.8313,
+      "weedCoverage": 18.1,
+      "imagePath": "/uploads/scan_1778011740961_e91f4f24.png"
+    }
+  ],
+  "activity": [
+    {
+      "msg": "Scanned \"1-s2.0-S2352340925004214-fx3.jpg\" — found 12 weeds (high severity)",
+      "type": "warning",
+      "time": "2026-05-05T21:15:12.780Z"
+    },
+    {
+      "msg": "Scanned \"Screenshot 2026-05-05 234607.png\" — found 7 weeds (medium severity)",
+      "type": "success",
+      "time": "2026-05-05T21:03:31.995Z"
+    },
+    {
+      "msg": "Scanned \"Screenshot 2026-05-05 234607.png\" — found 7 weeds (medium severity)",
+      "type": "success",
+      "time": "2026-05-05T21:01:07.560Z"
+    },
+    {
+      "msg": "Scanned \"demo_field_scan.png\" — found 9 weeds (high severity)",
+      "type": "warning",
+      "time": "2026-05-05T20:25:02.379Z"
+    },
+    {
+      "msg": "Scanned \"demo_field_scan.png\" — found 9 weeds (high severity)",
+      "type": "warning",
+      "time": "2026-05-05T20:24:27.937Z"
+    },
+    {
+      "msg": "Scanned \"demo_field_scan.png\" — found 10 weeds (high severity)",
+      "type": "warning",
+      "time": "2026-05-05T20:17:10.830Z"
+    },
+    {
+      "msg": "Scanned \"demo_field_scan.png\" — found 9 weeds (high severity)",
+      "type": "warning",
+      "time": "2026-05-05T20:09:20.871Z"
+    },
+    {
+      "msg": "Scanned \"demo_field_scan.png\" — found 9 weeds (high severity)",
+      "type": "warning",
+      "time": "2026-05-05T20:09:01.029Z"
+    }
+  ]
+}
