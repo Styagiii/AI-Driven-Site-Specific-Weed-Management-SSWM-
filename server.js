@@ -17,7 +17,6 @@ const PORT = process.env.PORT || 3000;
 // --- Middleware ---
 app.use(cors());
 app.use(express.json());
-app.use(express.static(path.join(__dirname)));
 
 // --- Upload Config ---
 const uploadDir = path.join(__dirname, 'uploads');
@@ -281,7 +280,7 @@ function generateTreatmentPlan(analysisResult) {
       totalHerbicideVolume: parseFloat(totalHerbicide.toFixed(2)),
       conventionalVolume: conventionalHerbicide,
       reductionPercent: parseFloat(savings),
-      estimatedCost: parseFloat((totalHerbicide * 8.5).toFixed(2)), // $8.50 per liter
+      estimatedCost: parseFloat((totalHerbicide * 8.5).toFixed(2)), // ₹8.50 per liter
       conventionalCost: parseFloat((conventionalHerbicide * 8.5).toFixed(2))
     },
     herbicideBreakdown: [...new Set(treatedZones.map(z => z.herbicide))].map(herb => {
@@ -412,16 +411,8 @@ app.get('/api/scan/:scanId', (req, res) => {
 // --- Serve uploaded images ---
 app.use('/uploads', express.static(uploadDir));
 
-// --- Serve any existing HTML/JS/CSS file ---
-app.use((req, res, next) => {
-  if (req.method === 'GET') {
-    const requestedFile = path.join(__dirname, req.path);
-    if (!req.path.startsWith('/api') && fs.existsSync(requestedFile) && fs.statSync(requestedFile).isFile()) {
-      return res.sendFile(requestedFile);
-    }
-  }
-  next();
-});
+// --- Serve static assets (HTML, JS, CSS) ---
+app.use(express.static(path.join(__dirname)));
 
 // --- SPA Fallback: serve index.html for GET requests to unknown routes ---
 app.get('*', (req, res) => {
@@ -432,7 +423,7 @@ app.get('*', (req, res) => {
   }
 });
 
-// --- 405 Method Not Allowed for unknown routes ---
+// Final 404 handler
 app.all('*', (req, res) => {
   res.status(404).json({ error: 'Not found' });
 });

@@ -27,7 +27,7 @@ function fetchBackendStats() {
       function updateCost(now) {
         const p = Math.min((now - startTime) / 2000, 1);
         const eased = 1 - Math.pow(1 - p, 3);
-        costEl.textContent = '$' + Math.floor(costTarget * eased).toLocaleString();
+        costEl.textContent = '₹' + Math.floor(costTarget * eased).toLocaleString();
         if (p < 1) requestAnimationFrame(updateCost);
       }
       requestAnimationFrame(updateCost);
@@ -37,7 +37,7 @@ function fetchBackendStats() {
       document.getElementById('statFields').textContent = '0';
       document.getElementById('statChemical').textContent = '0%';
       document.getElementById('statAccuracy').textContent = '0%';
-      document.getElementById('statCost').textContent = '$0';
+      document.getElementById('statCost').textContent = '₹0';
     });
 }
 
@@ -124,7 +124,7 @@ function initCostChart() {
     ChartHelper.createLine(ctx, labels, [
       { label: 'Traditional Spraying', data: traditional, borderColor: '#f43f5e', backgroundColor: 'rgba(244,63,94,0.08)', fill: true, tension: 0.4, borderWidth: 2, pointRadius: 3, pointBackgroundColor: '#f43f5e' },
       { label: 'Precision (AgroVision)', data: precision, borderColor: '#22c55e', backgroundColor: 'rgba(34,197,94,0.08)', fill: true, tension: 0.4, borderWidth: 2, pointRadius: 3, pointBackgroundColor: '#22c55e' }
-    ], { scales: { ...ChartHelper.baseOptions.scales, y: { ...ChartHelper.baseOptions.scales.y, ticks: { ...ChartHelper.baseOptions.scales.y.ticks, callback: v => '$' + v } } } });
+    ], { scales: { ...ChartHelper.baseOptions.scales, y: { ...ChartHelper.baseOptions.scales.y, ticks: { ...ChartHelper.baseOptions.scales.y.ticks, callback: v => '₹' + v } } } });
   }).catch(() => {
     // Fallback: empty chart
     ChartHelper.createLine(ctx, ['No data'], [{ label: 'No scans yet', data: [0], borderColor: '#5e7e6d' }]);

@@ -25,7 +25,7 @@ function animateAnalyticsStats() {
   function updateSavings(now) {
     const p = Math.min((now - startTime) / 2000, 1);
     const eased = 1 - Math.pow(1 - p, 3);
-    savingsEl.textContent = '$' + Math.floor(savingsTarget * eased).toLocaleString();
+    savingsEl.textContent = '₹' + Math.floor(savingsTarget * eased).toLocaleString();
     if (p < 1) requestAnimationFrame(updateSavings);
   }
   requestAnimationFrame(updateSavings);
@@ -72,7 +72,7 @@ function initCostAnalysisChart() {
           ...ChartHelper.baseOptions.scales.y,
           ticks: {
             ...ChartHelper.baseOptions.scales.y.ticks,
-            callback: v => '$' + v
+            callback: v => '₹' + v
           }
         }
       }

@@ -343,11 +343,11 @@ function generateTreatmentPlan() {
     </div>
     <div class="flex-between mt-1" style="padding:8px 0;">
       <span style="font-size:0.82rem;color:var(--text-secondary);">Estimated Cost (Precision)</span>
-      <span style="font-weight:700;color:var(--green-400);font-size:1.1rem;">$${plan.summary.estimatedCost}</span>
+      <span style="font-weight:700;color:var(--green-400);font-size:1.1rem;">₹${plan.summary.estimatedCost}</span>
     </div>
     <div class="flex-between" style="padding:4px 0;">
       <span style="font-size:0.82rem;color:var(--text-secondary);">Conventional Cost</span>
-      <span style="font-weight:700;color:var(--rose-400);font-size:1.1rem;text-decoration:line-through;">$${plan.summary.conventionalCost}</span>
+      <span style="font-weight:700;color:var(--rose-400);font-size:1.1rem;text-decoration:line-through;">₹${plan.summary.conventionalCost}</span>
     </div>
   `;
 

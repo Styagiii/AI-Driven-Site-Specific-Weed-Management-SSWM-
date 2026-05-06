@@ -426,5 +426,5 @@ document.addEventListener('DOMContentLoaded', () => {
 
 // --- Format helpers ---
 function formatNumber(n) { return n.toLocaleString(); }
-function formatCurrency(n) { return '$' + n.toLocaleString(undefined, { minimumFractionDigits: 0, maximumFractionDigits: 0 }); }
+function formatCurrency(n) { return '₹' + n.toLocaleString(undefined, { minimumFractionDigits: 0, maximumFractionDigits: 0 }); }
 function formatPercent(n) { return n.toFixed(1) + '%'; }

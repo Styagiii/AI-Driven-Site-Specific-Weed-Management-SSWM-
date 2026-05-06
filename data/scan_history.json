@@ -1,6 +1,17 @@
 {
   "scans": [
     {
+      "scanId": "SCAN-778C601E",
+      "fileName": "1-s2.0-S2352340925004214-fx6.jpg",
+      "fileSize": 69027,
+      "timestamp": "2026-05-05T21:44:49.970Z",
+      "totalDetections": 7,
+      "overallSeverity": "high",
+      "avgConfidence": 0.8652,
+      "weedCoverage": 17.5,
+      "imagePath": "/uploads/scan_1778017489956_382cd542.jpg"
+    },
+    {
       "scanId": "SCAN-B0C3D84A",
       "fileName": "ridderzuring_3183_jpg.rf.d456018c2a5a0fd960827611c07bca26.jpg",
       "fileSize": 82288,
@@ -123,6 +134,11 @@
     }
   ],
   "activity": [
+    {
+      "msg": "Scanned \"1-s2.0-S2352340925004214-fx6.jpg\" — found 7 weeds (high severity)",
+      "type": "warning",
+      "time": "2026-05-05T21:44:49.972Z"
+    },
     {
       "msg": "Scanned \"ridderzuring_3183_jpg.rf.d456018c2a5a0fd960827611c07bca26.jpg\" — found 4 weeds (medium severity)",
       "type": "success",
