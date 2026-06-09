@@ -251,8 +251,8 @@ function generateTreatmentPlan(analysisResult) {
         severity,
         weedDensity: severity === 'clean' ? 0
           : severity === 'low' ? parseFloat((seededRandom(seed, r * cols + c + 600) * 15).toFixed(1))
-          : severity === 'medium' ? parseFloat((15 + seededRandom(seed, r * cols + c + 600) * 25).toFixed(1))
-          : parseFloat((40 + seededRandom(seed, r * cols + c + 600) * 40).toFixed(1)),
+            : severity === 'medium' ? parseFloat((15 + seededRandom(seed, r * cols + c + 600) * 25).toFixed(1))
+              : parseFloat((40 + seededRandom(seed, r * cols + c + 600) * 40).toFixed(1)),
         recommendedDosage: severity === 'clean' ? 0 : severity === 'low' ? 0.5 : severity === 'medium' ? 1.2 : 2.0,
         herbicide: species ? species.herbicide : 'None',
         species: species ? species.name : 'None',

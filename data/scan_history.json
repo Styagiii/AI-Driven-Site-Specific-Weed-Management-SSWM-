@@ -1,6 +1,94 @@
 {
   "scans": [
     {
+      "scanId": "SCAN-5C04A78B",
+      "fileName": "photo_2026-05-06_10-29-21.jpg",
+      "fileSize": 62501,
+      "timestamp": "2026-05-06T05:03:35.096Z",
+      "totalDetections": 10,
+      "overallSeverity": "medium",
+      "avgConfidence": 0.8732,
+      "weedCoverage": 23.1,
+      "imagePath": "/uploads/scan_1778043815072_d8778664.jpg"
+    },
+    {
+      "scanId": "SCAN-F0B38E3D",
+      "fileName": "1-s2.0-S2352340925004214-fx2.jpg",
+      "fileSize": 451726,
+      "timestamp": "2026-05-06T05:02:30.771Z",
+      "totalDetections": 9,
+      "overallSeverity": "high",
+      "avgConfidence": 0.9007,
+      "weedCoverage": 9.8,
+      "imagePath": "/uploads/scan_1778043750717_20bf1f44.jpg"
+    },
+    {
+      "scanId": "SCAN-5C04A78B",
+      "fileName": "photo_2026-05-06_10-29-21.jpg",
+      "fileSize": 62501,
+      "timestamp": "2026-05-06T04:59:43.589Z",
+      "totalDetections": 10,
+      "overallSeverity": "medium",
+      "avgConfidence": 0.8732,
+      "weedCoverage": 23.1,
+      "imagePath": "/uploads/scan_1778043583529_25aefb7a.jpg"
+    },
+    {
+      "scanId": "SCAN-9E17142D",
+      "fileName": "photo_2026-05-06_10-13-20.jpg",
+      "fileSize": 408443,
+      "timestamp": "2026-05-06T04:43:36.996Z",
+      "totalDetections": 6,
+      "overallSeverity": "high",
+      "avgConfidence": 0.8753,
+      "weedCoverage": 39.4,
+      "imagePath": "/uploads/scan_1778042616931_5d21bcfa.jpg"
+    },
+    {
+      "scanId": "SCAN-59625147",
+      "fileName": "1-s2.0-S2352340925004214-fx2.jpg",
+      "fileSize": 257585,
+      "timestamp": "2026-05-06T04:39:34.326Z",
+      "totalDetections": 6,
+      "overallSeverity": "high",
+      "avgConfidence": 0.8489,
+      "weedCoverage": 21.4,
+      "imagePath": "/uploads/scan_1778042374310_6da07e02.jpg"
+    },
+    {
+      "scanId": "SCAN-59625147",
+      "fileName": "1-s2.0-S2352340925004214-fx2.jpg",
+      "fileSize": 257585,
+      "timestamp": "2026-05-06T04:36:19.833Z",
+      "totalDetections": 6,
+      "overallSeverity": "high",
+      "avgConfidence": 0.8489,
+      "weedCoverage": 21.4,
+      "imagePath": "/uploads/scan_1778042179819_09e50132.jpg"
+    },
+    {
+      "scanId": "SCAN-196EDAD0",
+      "fileName": "1-s2.0-S2352340925004214-gr5.jpg",
+      "fileSize": 190228,
+      "timestamp": "2026-05-06T04:24:28.029Z",
+      "totalDetections": 12,
+      "overallSeverity": "high",
+      "avgConfidence": 0.8739,
+      "weedCoverage": 13.1,
+      "imagePath": "/uploads/scan_1778041467975_a2e58b60.jpg"
+    },
+    {
+      "scanId": "SCAN-B56CE259",
+      "fileName": "1-s2.0-S2352340925004214-fx3.jpg",
+      "fileSize": 601308,
+      "timestamp": "2026-05-06T04:18:45.668Z",
+      "totalDetections": 12,
+      "overallSeverity": "high",
+      "avgConfidence": 0.824,
+      "weedCoverage": 9.3,
+      "imagePath": "/uploads/scan_1778041125413_31eae332.jpg"
+    },
+    {
       "scanId": "SCAN-778C601E",
       "fileName": "1-s2.0-S2352340925004214-fx6.jpg",
       "fileSize": 69027,
@@ -134,6 +222,46 @@
     }
   ],
   "activity": [
+    {
+      "msg": "Scanned \"photo_2026-05-06_10-29-21.jpg\" — found 10 weeds (medium severity)",
+      "type": "success",
+      "time": "2026-05-06T05:03:35.096Z"
+    },
+    {
+      "msg": "Scanned \"1-s2.0-S2352340925004214-fx2.jpg\" — found 9 weeds (high severity)",
+      "type": "warning",
+      "time": "2026-05-06T05:02:30.773Z"
+    },
+    {
+      "msg": "Scanned \"photo_2026-05-06_10-29-21.jpg\" — found 10 weeds (medium severity)",
+      "type": "success",
+      "time": "2026-05-06T04:59:43.596Z"
+    },
+    {
+      "msg": "Scanned \"photo_2026-05-06_10-13-20.jpg\" — found 6 weeds (high severity)",
+      "type": "warning",
+      "time": "2026-05-06T04:43:37.002Z"
+    },
+    {
+      "msg": "Scanned \"1-s2.0-S2352340925004214-fx2.jpg\" — found 6 weeds (high severity)",
+      "type": "warning",
+      "time": "2026-05-06T04:39:34.327Z"
+    },
+    {
+      "msg": "Scanned \"1-s2.0-S2352340925004214-fx2.jpg\" — found 6 weeds (high severity)",
+      "type": "warning",
+      "time": "2026-05-06T04:36:19.836Z"
+    },
+    {
+      "msg": "Scanned \"1-s2.0-S2352340925004214-gr5.jpg\" — found 12 weeds (high severity)",
+      "type": "warning",
+      "time": "2026-05-06T04:24:28.031Z"
+    },
+    {
+      "msg": "Scanned \"1-s2.0-S2352340925004214-fx3.jpg\" — found 12 weeds (high severity)",
+      "type": "warning",
+      "time": "2026-05-06T04:18:45.677Z"
+    },
     {
       "msg": "Scanned \"1-s2.0-S2352340925004214-fx6.jpg\" — found 7 weeds (high severity)",
       "type": "warning",
